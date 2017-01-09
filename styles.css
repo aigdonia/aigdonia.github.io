@@ -1,0 +1,184 @@
+body{
+  font: 400 18px/24px 'Roboto'
+}
+
+p{
+  font-family: 'Lato';
+  line-height: 28px;
+}
+
+.shade {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  /*background-color: #C5E1A5;*/
+}
+
+header{
+  margin-bottom: 15px;
+  z-index: 100;
+  position: relative;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.header__navbar a{
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: capitalize;
+
+  color: black;
+}
+
+.header__logo{
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__text{
+  display: inline-block;
+  font-size: 2.7rem;
+  font-weight: 100;
+}
+
+main{
+  min-height: 100vh;
+  padding: 5px 0;
+  z-index: 100;
+  position: relative;
+}
+
+.content-section {
+  min-height: 80vh;
+  padding: 15px 10vw;
+}
+
+.content-section h1 {
+  font-weight: 500
+}
+
+
+.content-section#intro {
+  padding-top: 65px;
+}
+
+.content-section#social {
+  height: 100vh;
+}
+
+.content-section h1,
+.content-section h3{
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.content-section h3{
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin-top: 24px;
+  background-color: #E6EE9C;
+}
+
+#intro.content-section p{
+  font-family: 'Lato';
+  font-size: 1.3rem;
+  display: inline-block;
+  text-align: justify;
+  color: #3f3f3f;
+}
+
+img.my {
+  display: inline-block;
+  width: 30%;
+  border-radius: 50%;
+  filter: saturate(12px);
+  -webkit-filter: sepia(0%) saturate(85%);
+}
+
+
+.flex-grid{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-grid--wrap{
+  flex-wrap: wrap;
+}
+
+.flex-grid>div {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.interests > div {
+  padding: 7px 5px;
+  margin: 3px 3px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 200ms ease-in-out;
+}
+
+.interests > div:hover {
+  opacity: 1;
+}
+
+.project {
+  width: 70%;
+  margin: 10px auto;
+  padding: 10px 7px;
+  opacity: 0.7;
+  transition: opacity 120ms ease-in-out;
+}
+
+.project:hover {
+  opacity: 1;
+}
+
+.project h2 {
+  font-weight: 300;
+  font-size:1.7rem;
+}
+
+.project p{
+  font-family: 'Lato';
+  color: #3f3f3f;
+}
+
+.project a{
+  float:right;
+  padding: 0 4px;
+}
+
+#social .social-accounts {
+  margin-top: 100px;
+  font-size: 2.4rem;
+}
+
+#social .social-accounts a{
+  color: black;
+  padding-left: 3px;
+}
+
+.colorful--twitter {
+  color: #00aced;
+}
+
+.colorful--linkedin {
+  color: #0073a4;
+}
+.colorful--product-hunt {
+  color: rgb(218, 85, 47);
+}
